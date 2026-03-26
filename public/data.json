@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "role": "All-Rounder",
+    "battingStyle": "Right-Hand-Bat",
+    "rating": 95,
+    "price": 1500000,
+    "image": "https://i.ibb.co.com/p98SHKm/kohli231007.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "battingStyle": "Right-Hand-Bat",
+    "rating": 92,
+    "price": 1400000,
+    "image": "https://i.ibb.co.com/Lz92N34J/2019-was-a-great-year-for-me-says-babar-azam-1577821617-3912.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Joe Root",
+    "country": "England",
+    "role": "Batsman",
+    "battingStyle": "Right-Hand-Bat",
+    "rating": 90,
+    "price": 1350000,
+    "image": "https://i.ibb.co.com/qL1989x2/2c599920-ef7b-11ef-bfcc-df31b19992af.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Steve Smith",
+    "country": "Australia",
+    "role": "Batsman",
+    "battingStyle": "Right-Hand-Bat",
+    "rating": 91,
+    "price": 1380000,
+    "image": "https://i.ibb.co.com/dJLh0Ytn/226605.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "battingStyle": "Right-Hand-Bat",
+    "rating": 89,
+    "price": 1320000,
+    "image": "https://i.ibb.co.com/Fkh5YtL2/kane-williamson-confirmed-for-2026-t20-world-cup-15-09-2025.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-Rounder",
+    "battingStyle": "Left-Hand-Bat",
+    "rating": 93,
+    "price": 1450000,
+    "image": "https://i.ibb.co.com/5WjpkMDP/Ben-Stokes-Test-match-records-England-e1752846077566.png"
+  },
+  {
+    "id": 7,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "battingStyle": "Left-Hand-Bat",
+    "rating": 91,
+    "price": 1300000,
+    "image": "https://i.ibb.co.com/Tqmd5MKd/article232362.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Hardik Pandya",
+    "country": "India",
+    "role": "All-Rounder",
+    "battingStyle": "Right-Hand-Bat",
+    "rating": 88,
+    "price": 1250000,
+    "image": "https://i.ibb.co.com/JwKRLjvk/hardik-pandya-bowled-all-his-three-overs-in-the-middle-against-south-africa-in-mullanpur.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Rohit Sharma",
+    "country": "India",
+    "role": "Batsman",
+    "battingStyle": "Right-Hand-Bat",
+    "rating": 90,
+    "price": 1370000,
+    "image": "https://i.ibb.co.com/Y7zbp79X/Rohit-Sharma4.jpg"
+  },
+  {
+    "id": 10,
+    "name": "David Warner",
+    "country": "Australia",
+    "role": "Batsman",
+    "battingStyle": "Left-Hand-Bat",
+    "rating": 87,
+    "price": 1200000,
+    "image": "https://i.ibb.co.com/7d7Rqsx4/MV5-BNz-A3-N2-Uy-ZDkt-Nm-Zi-NC00-MTk3-LWE0-MTYt-OTEx-YTQz-ZTli-MTE4-Xk-Ey-Xk-Fqc-Gc-V1.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Jos Buttler",
+    "country": "England",
+    "role": "Wicketkeeper",
+    "battingStyle": "Right-Hand-Bat",
+    "rating": 89,
+    "price": 1280000,
+    "image": "https://i.ibb.co.com/DfcVY4zx/32c1ab6ffa7ae0cb7d20e6445d537eaf.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "role": "Wicketkeeper",
+    "battingStyle": "Left-Hand-Bat",
+    "rating": 88,
+    "price": 1230000,
+    "image": "https://i.ibb.co.com/TD7vxkyN/9e2f1330-9792-11f0-a4bc-e5c9e246a537.jpg"
+  },
+  {
+    "id": 13,
+    "name": "KL Rahul",
+    "country": "India",
+    "role": "Wicketkeeper",
+    "battingStyle": "Right-Hand-Bat",
+    "rating": 87,
+    "price": 1210000,
+    "image": "https://i.ibb.co.com/SDcbyrxX/kl-rahul-123711834-3x4.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "battingStyle": "Right-Hand-Bat",
+    "rating": 91,
+    "price": 1400000,
+    "image": "https://i.ibb.co.com/21WYmXf4/dlsrhcqo-jasprit-bumrah-afp-625x300-21-June-24.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Shaheen Afridi",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "battingStyle": "Left-Hand-Bat",
+    "rating": 90,
+    "price": 1350000,
+    "image": "https://i.ibb.co.com/sdFsJFcK/images.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Mitchell Starc",
+    "country": "Australia",
+    "role": "Bowler",
+    "battingStyle": "Left-Hand-Bat",
+    "rating": 89,
+    "price": 1320000,
+    "image": "https://i.ibb.co.com/1f7WTqfn/skysports-mitchell-starc-south-africa-vs-australia-6362250.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "battingStyle": "Right-Hand-Bat",
+    "rating": 88,
+    "price": 1280000,
+    "image": "https://i.ibb.co.com/LDNFfTX8/330545.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "All-Rounder",
+    "battingStyle": "Right-Hand-Bat",
+    "rating": 92,
+    "price": 1420000,
+    "image": "https://i.ibb.co.com/r26jmvbv/Whats-App-Image-2024-01-27-at-02-45-38.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Glenn Maxwell",
+    "country": "Australia",
+    "role": "All-Rounder",
+    "battingStyle": "Right-Hand-Bat",
+    "rating": 90,
+    "price": 1380000,
+    "image": "https://i.ibb.co.com/XfyzLwZt/Glenn-Maxwell-Big-Performance-2023.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "role": "All-Rounder",
+    "battingStyle": "Right-Hand-Bat",
+    "rating": 91,
+    "price": 1400000,
+    "image": "https://i.ibb.co.com/Q3t4xxZW/russell-2-974075-1618508723.jpg"
+  }
+]

@@ -11,10 +11,12 @@ const Navbar = () => {
           </a>
         </div>
         <div className="flex gap-6 items-center">
+            <div className="hidden md:flex md:gap-6 ">
             <a href="" className="text-[#131313]">Home</a>
             <a href="" className="text-[#131313]">Fixture</a>
             <a href="" className="text-[#131313]">Teams</a>
             <a href="" className="text-[#131313]">Schedules</a>
+            </div>
           <h3 className="bg-gray-200 font-bold px-2 py-3 rounded-lg">
             Balance: 5000$
           </h3>
