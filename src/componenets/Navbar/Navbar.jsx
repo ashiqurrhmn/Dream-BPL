@@ -22,6 +22,7 @@ const Navbar = ({ balance }) => {
           </h3>
         </div>
       </div>
+      
     </div>
   );
 };

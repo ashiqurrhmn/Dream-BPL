@@ -5,6 +5,7 @@ import SelectedPlayers from "../SelectedPlayers/SelectedPlayers";
 const Players = ({ promise, setBalance, balance }) => {
   const data = use(promise);
   const [btnType, setBtnType] = useState("available");
+  const [selectedPlayers, setSelectedPlayers] = useState([]);
 
   return (
     <>
@@ -12,7 +13,7 @@ const Players = ({ promise, setBalance, balance }) => {
         {btnType === "available" ? (
           <div className="my-10 text-3xl font-bold">Available Players</div>
         ) : (
-          <div className="my-10 text-3xl font-bold">Selected Players (0/0)</div>
+          <div className="my-10 text-3xl font-bold">Selected Players ({selectedPlayers.length}/{data.length})</div>
         )}
         <div>
           <button
@@ -25,14 +26,14 @@ const Players = ({ promise, setBalance, balance }) => {
             className={`${btnType === "selected" ? "bg-[#E7FE29]" : "bg-gray-100"} w-40 px-4 py-2 md:px-6 md:py-3 md:rounded-r-lg font-semibold cursor-pointer border-gray-200 border md:border-l-0`}
             onClick={() => setBtnType("selected")}
           >
-            Selected (0)
+            Selected ({selectedPlayers.length})
           </button>
         </div>
       </div>
       {btnType === "available" ? (
-        <AvailablePlayers data={data} setBalance={setBalance} balance={balance}></AvailablePlayers>
+        <AvailablePlayers data={data} setBalance={setBalance} balance={balance} setSelectedPlayers={setSelectedPlayers} selectedPlayers={selectedPlayers}></AvailablePlayers>
       ) : (
-        <SelectedPlayers></SelectedPlayers>
+        <SelectedPlayers selectedPlayers={selectedPlayers} setSelectedPlayers={setSelectedPlayers} setBalance={setBalance} balance={balance}></SelectedPlayers>
       )}
     </>
   );

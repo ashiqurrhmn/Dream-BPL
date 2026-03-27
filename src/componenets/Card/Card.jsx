@@ -2,21 +2,25 @@ import React from "react";
 import { FaUserAlt } from "react-icons/fa";
 import { FaFlag } from "react-icons/fa";
 import { useState } from "react";
- import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 
-const Card = ({ player, setBalance, balance }) => {
+
+
+const Card = ({ player, setBalance, balance, setSelectedPlayers, selectedPlayers }) => {
   const [isSelected, setIsSelected] = useState(false);
 
-  const handleSelect = () => {
-    setIsSelected(true);
-    setBalance(balance - player.price);
-    if (balance - player.price < 0) {
-      toast.error("Not enough balance to select this player!");
+ const handleSelect = () => {
+  let newBalance = balance - player.price;
 
-      setIsSelected(false);
-      setBalance(balance);
-    }
-  };
+  if (newBalance >= 0) {
+    setBalance(balance - player.price);
+    toast.success(`${player.name} has been selected!`);
+    setIsSelected(true);
+  } else {
+    toast.error("Not enough balance to select this player!");
+  }
+  setSelectedPlayers([...selectedPlayers, player]);
+};
 
   return (
     <div className="card bg-gray-100 w-90 shadow-sm p-6">
@@ -51,9 +55,11 @@ const Card = ({ player, setBalance, balance }) => {
           </button>
         </div>
       </div>
-      <ToastContainer />
+      
     </div>
+    
   );
+  
 };
 
 export default Card;

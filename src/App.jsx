@@ -4,6 +4,8 @@ import Banner from "./componenets/Home/Banner/Banner";
 import Navbar from "./componenets/Navbar/Navbar";
 import Players from "./componenets/Players/Players";
 import { useState } from "react";
+import 'react-toastify/dist/ReactToastify.css';
+ import { ToastContainer } from 'react-toastify';
 
 const fetchPlayer = async () => {
   const res = await fetch("/data.json");
@@ -18,6 +20,7 @@ function App() {
     <>
       <Navbar balance = {balance}></Navbar>
       <Banner></Banner>
+      
       <Suspense
         fallback={
           <div>
@@ -34,7 +37,7 @@ function App() {
       >
         <Players promise={promise} setBalance={setBalance} balance={balance}></Players>
       </Suspense>
-      
+      <ToastContainer />
     </>
   );
 }
