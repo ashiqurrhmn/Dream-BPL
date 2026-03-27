@@ -6,6 +6,7 @@ import Players from "./componenets/Players/Players";
 import { useState } from "react";
 import 'react-toastify/dist/ReactToastify.css';
  import { ToastContainer } from 'react-toastify';
+import Footer from "./componenets/Footer";
 
 const fetchPlayer = async () => {
   const res = await fetch("/data.json");
@@ -37,6 +38,8 @@ function App() {
       >
         <Players promise={promise} setBalance={setBalance} balance={balance}></Players>
       </Suspense>
+
+      <Footer></Footer>
       <ToastContainer />
     </>
   );
