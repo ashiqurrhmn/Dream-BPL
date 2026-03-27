@@ -1,16 +1,84 @@
-# React + Vite
+🔗 Live Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+👉 https://dream-bpl.vercel.app/
 
-Currently, two official plugins are available:
+📌 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Dream BPL is a fantasy cricket web application where users can create their own dream team by selecting players, manage their balance, and track team performance.
 
-## React Compiler
+It’s inspired by fantasy league platforms where you act like a manager—pick players, build a squad, and compete based on performance.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🚀 Features
+🧑‍🤝‍🧑 Create your dream cricket team
+💰 Budget system (balance management)
+🧾 Player selection & removal system
+🔄 Dynamic UI updates (React state)
+⚡ Fast and responsive design
+🔔 Toast notifications for actions
+🛠️ Technologies Used
+React.js
+JavaScript (ES6+)
+Tailwind CSS
+React Icons
+React Toastify
 
-## Expanding the ESLint configuration
+📂 Project Structure
+src/
+│── components/
+│   ├── Banner/
+│   ├── Players/
+│   ├── SelectedPlayers/
+│── assets/
+│── App.jsx
+│── main.jsx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚙️ Installation & Setup
+
+If you want to run this project locally:
+
+# Clone the repo
+git clone https://github.com/your-username/dream-bpl.git
+
+# Go into the folder
+cd dream-bpl
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
+🎯 How It Works
+You start with a fixed balance
+Choose players to build your team
+Each player has a cost
+Your balance decreases when you add players
+You can remove players to get balance back
+
+Simple idea:
+👉 Just like picking a team in a fantasy league app with a limited budget
+
+📸 Screenshots
+
+(Add screenshots here later — homepage, player list, selected team, etc.)
+
+🌱 Future Improvements
+🔐 User authentication (login/signup)
+📊 Leaderboard system
+🌐 API integration for real player data
+🏆 Points system based on matches
+📱 Mobile optimization
+🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork the repo and submit a pull request.
+
+📄 License
+
+This project is open-source and available under the MIT License.
+
+If you want, I can also:
+
+make it more “professional GitHub style” (for recruiters 🔥)
+or customize it based on your actual code (like exact features/components)
+
+Just tell me 👍
