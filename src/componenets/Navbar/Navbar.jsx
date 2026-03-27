@@ -1,7 +1,7 @@
 import React from "react";
 import navImg from "../../assets/logo.png";
 
-const Navbar = () => {
+const Navbar = ({ balance }) => {
   return (
     <div>
       <div className="navbar bg-base-100 shadow-sm">
@@ -18,7 +18,7 @@ const Navbar = () => {
             <a href="" className="text-[#131313]">Schedules</a>
             </div>
           <h3 className="bg-gray-200 font-bold px-2 py-3 rounded-lg">
-            Balance: 5000$
+            Balance: {balance}$
           </h3>
         </div>
       </div>

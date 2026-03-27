@@ -3,6 +3,7 @@ import "./App.css";
 import Banner from "./componenets/Home/Banner/Banner";
 import Navbar from "./componenets/Navbar/Navbar";
 import Players from "./componenets/Players/Players";
+import { useState } from "react";
 
 const fetchPlayer = async () => {
   const res = await fetch("/data.json");
@@ -11,10 +12,11 @@ const fetchPlayer = async () => {
 
 function App() {
   const promise = fetchPlayer();
+  const [balance, setBalance] = useState(5000000);
 
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar balance = {balance}></Navbar>
       <Banner></Banner>
       <Suspense
         fallback={
@@ -30,7 +32,7 @@ function App() {
           </div>
         }
       >
-        <Players promise={promise}></Players>
+        <Players promise={promise} setBalance={setBalance} balance={balance}></Players>
       </Suspense>
       
     </>
