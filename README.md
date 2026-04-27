@@ -37,7 +37,7 @@ src/
 If you want to run this project locally:
 
 # Clone the repo
-git clone https://github.com/your-username/dream-bpl.git
+git clone https://github.com/ashiqurrhmn/dream-bpl.git
 
 # Go into the folder
 cd dream-bpl
